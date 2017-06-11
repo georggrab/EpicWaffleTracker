@@ -7,39 +7,38 @@
 //
 
 import UIKit
+import CoreData
 
 class ListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Entry")
+        fetchRequest.sortDescriptors = [ NSSortDescriptor(key:"date", ascending:true) ]
+        
+        let coreData = CoreData.getInstance()
+        let managedObjectContext = coreData.createManagedObjectContext()
+        results = try! managedObjectContext.fetch(fetchRequest) as! [Entry]
     }
+//    
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    var fruits = ["Apple", "Apricot", "Banana", "Blueberry", "Cantaloupe", "Cherry",
-              "Clementine", "Coconut", "Cranberry", "Fig", "Grape", "Grapefruit",
-              "Kiwi fruit", "Lemon", "Lime", "Lychee", "Mandarine", "Mango",
-              "Melon", "Nectarine", "Olive", "Orange", "Papaya", "Peach",
-              "Pear", "Pineapple", "Raspberry", "Strawberry"]
-    
-    // MARK: - UITableViewDataSource
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
+    var results = [Entry]()
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return fruits.count
+        return results.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath)
         
-        cell.textLabel?.text = fruits[indexPath.row]
+        cell.textLabel?.text = results[indexPath.row].text
+        cell.detailTextLabel?.text = "\(results[indexPath.row].amount)$"
         
         return cell
     }
