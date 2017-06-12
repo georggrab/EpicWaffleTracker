@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		07B2F3C21EC092750031C855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B2F3C11EC092750031C855 /* AppDelegate.swift */; };
-		07B2F3C41EC092750031C855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B2F3C31EC092750031C855 /* ViewController.swift */; };
 		07B2F3C71EC092750031C855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B2F3C51EC092750031C855 /* Main.storyboard */; };
 		07B2F3C91EC092750031C855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B2F3C81EC092750031C855 /* Assets.xcassets */; };
 		07B2F3CC1EC092750031C855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B2F3CA1EC092750031C855 /* LaunchScreen.storyboard */; };
-		07B2F3D61EC098720031C855 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B2F3D51EC098720031C855 /* ListViewController.swift */; };
+		29127033FF2135DDFF2B532F /* Pods_EpicWaffleTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA794B0E03AA48A42F0E99D2 /* Pods_EpicWaffleTracker.framework */; };
+		A4177C441EEF3B8300181AF3 /* ExpenseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4177C431EEF3B8300181AF3 /* ExpenseDetail.swift */; };
+		A4FEBB761EEDFA2E005A992D /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEBB751EEDFA2E005A992D /* MainScreen.swift */; };
+		A4FEBB781EEDFB26005A992D /* DataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEBB771EEDFB26005A992D /* DataProtocol.swift */; };
+		A4FEBB7A1EEDFC13005A992D /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEBB791EEDFC13005A992D /* Entities.swift */; };
+		A4FEBB7D1EEEEE17005A992D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FEBB7C1EEEEE17005A992D /* CoreData.framework */; };
+		A4FEBB801EEEEE50005A992D /* EpicWaffleTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4FEBB7E1EEEEE50005A992D /* EpicWaffleTracker.xcdatamodeld */; };
+		A4FEBBA41EEEFD96005A992D /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEBBA31EEEFD96005A992D /* Expenses.swift */; };
+		A4FEBBA61EEF00C2005A992D /* NewExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FEBBA51EEF00C2005A992D /* NewExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07B2F3BE1EC092750031C855 /* EpicWaffleTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicWaffleTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B2F3C11EC092750031C855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07B2F3C31EC092750031C855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07B2F3C61EC092750031C855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07B2F3C81EC092750031C855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07B2F3CB1EC092750031C855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07B2F3CD1EC092750031C855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07B2F3D51EC098720031C855 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		4E109FD55AEDEEA25C3EF18B /* Pods-EpicWaffleTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicWaffleTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpicWaffleTracker/Pods-EpicWaffleTracker.release.xcconfig"; sourceTree = "<group>"; };
+		6F77CB5052A3F42AE8C5E5D9 /* Pods-EpicWaffleTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicWaffleTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpicWaffleTracker/Pods-EpicWaffleTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		A4177C431EEF3B8300181AF3 /* ExpenseDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseDetail.swift; sourceTree = "<group>"; };
+		A4FEBB751EEDFA2E005A992D /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		A4FEBB771EEDFB26005A992D /* DataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProtocol.swift; sourceTree = "<group>"; };
+		A4FEBB791EEDFC13005A992D /* Entities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
+		A4FEBB7C1EEEEE17005A992D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A4FEBB7F1EEEEE50005A992D /* EpicWaffleTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EpicWaffleTracker.xcdatamodel; sourceTree = "<group>"; };
+		A4FEBBA31EEEFD96005A992D /* Expenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		A4FEBBA51EEF00C2005A992D /* NewExpense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewExpense.swift; sourceTree = "<group>"; };
+		AA794B0E03AA48A42F0E99D2 /* Pods_EpicWaffleTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpicWaffleTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FEBB7D1EEEEE17005A992D /* CoreData.framework in Frameworks */,
+				29127033FF2135DDFF2B532F /* Pods_EpicWaffleTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				07B2F3C01EC092750031C855 /* EpicWaffleTracker */,
-				07B2F3BF1EC092750031C855 /* Products */,
+				A4FEBB7B1EEEEE17005A992D /* Frameworks */,
+				A807A64A979D8C9594DB81FE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,20 +70,77 @@
 				07B2F3BE1EC092750031C855 /* EpicWaffleTracker.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		07B2F3C01EC092750031C855 /* EpicWaffleTracker */ = {
 			isa = PBXGroup;
 			children = (
+				A4FEBBA21EEEFD13005A992D /* Expenses */,
+				A4FEBB721EEDF980005A992D /* MainScreen */,
+				A4FEBB6F1EEDF4A0005A992D /* DataStore */,
+				A4FEBB6E1EEDF491005A992D /* Diagram */,
 				07B2F3C11EC092750031C855 /* AppDelegate.swift */,
-				07B2F3C31EC092750031C855 /* ViewController.swift */,
 				07B2F3C51EC092750031C855 /* Main.storyboard */,
 				07B2F3C81EC092750031C855 /* Assets.xcassets */,
+				07B2F3BF1EC092750031C855 /* Products */,
 				07B2F3CA1EC092750031C855 /* LaunchScreen.storyboard */,
 				07B2F3CD1EC092750031C855 /* Info.plist */,
-				07B2F3D51EC098720031C855 /* ListViewController.swift */,
+				A4FEBB7E1EEEEE50005A992D /* EpicWaffleTracker.xcdatamodeld */,
 			);
 			path = EpicWaffleTracker;
+			sourceTree = "<group>";
+		};
+		A4FEBB6E1EEDF491005A992D /* Diagram */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Diagram;
+			sourceTree = "<group>";
+		};
+		A4FEBB6F1EEDF4A0005A992D /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEBB771EEDFB26005A992D /* DataProtocol.swift */,
+				A4FEBB791EEDFC13005A992D /* Entities.swift */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		A4FEBB721EEDF980005A992D /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEBB751EEDFA2E005A992D /* MainScreen.swift */,
+			);
+			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		A4FEBB7B1EEEEE17005A992D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEBB7C1EEEEE17005A992D /* CoreData.framework */,
+				AA794B0E03AA48A42F0E99D2 /* Pods_EpicWaffleTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4FEBBA21EEEFD13005A992D /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				A4FEBBA31EEEFD96005A992D /* Expenses.swift */,
+				A4FEBBA51EEF00C2005A992D /* NewExpense.swift */,
+				A4177C431EEF3B8300181AF3 /* ExpenseDetail.swift */,
+			);
+			name = Expenses;
+			sourceTree = "<group>";
+		};
+		A807A64A979D8C9594DB81FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F77CB5052A3F42AE8C5E5D9 /* Pods-EpicWaffleTracker.debug.xcconfig */,
+				4E109FD55AEDEEA25C3EF18B /* Pods-EpicWaffleTracker.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07B2F3D01EC092750031C855 /* Build configuration list for PBXNativeTarget "EpicWaffleTracker" */;
 			buildPhases = (
+				D9722DC8F22520755D7FC573 /* [CP] Check Pods Manifest.lock */,
 				07B2F3BA1EC092750031C855 /* Sources */,
 				07B2F3BB1EC092750031C855 /* Frameworks */,
 				07B2F3BC1EC092750031C855 /* Resources */,
+				F66AC47E4FF98CD5A1392E23 /* [CP] Embed Pods Frameworks */,
+				B8C756635082B22B904A03DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +213,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B8C756635082B22B904A03DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpicWaffleTracker/Pods-EpicWaffleTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9722DC8F22520755D7FC573 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F66AC47E4FF98CD5A1392E23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpicWaffleTracker/Pods-EpicWaffleTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07B2F3BA1EC092750031C855 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B2F3C41EC092750031C855 /* ViewController.swift in Sources */,
+				A4FEBBA41EEEFD96005A992D /* Expenses.swift in Sources */,
+				A4177C441EEF3B8300181AF3 /* ExpenseDetail.swift in Sources */,
+				A4FEBBA61EEF00C2005A992D /* NewExpense.swift in Sources */,
+				A4FEBB801EEEEE50005A992D /* EpicWaffleTracker.xcdatamodeld in Sources */,
+				A4FEBB761EEDFA2E005A992D /* MainScreen.swift in Sources */,
+				A4FEBB781EEDFB26005A992D /* DataProtocol.swift in Sources */,
+				A4FEBB7A1EEDFC13005A992D /* Entities.swift in Sources */,
 				07B2F3C21EC092750031C855 /* AppDelegate.swift in Sources */,
-				07B2F3D61EC098720031C855 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +392,7 @@
 		};
 		07B2F3D11EC092750031C855 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F77CB5052A3F42AE8C5E5D9 /* Pods-EpicWaffleTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EpicWaffleTracker/Info.plist;
@@ -272,6 +405,7 @@
 		};
 		07B2F3D21EC092750031C855 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E109FD55AEDEEA25C3EF18B /* Pods-EpicWaffleTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EpicWaffleTracker/Info.plist;
@@ -301,8 +435,22 @@
 				07B2F3D21EC092750031C855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4FEBB7E1EEEEE50005A992D /* EpicWaffleTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4FEBB7F1EEEEE50005A992D /* EpicWaffleTracker.xcdatamodel */,
+			);
+			currentVersion = A4FEBB7F1EEEEE50005A992D /* EpicWaffleTracker.xcdatamodel */;
+			path = EpicWaffleTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 07B2F3B61EC092750031C855 /* Project object */;
 }
