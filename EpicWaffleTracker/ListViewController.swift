@@ -42,6 +42,26 @@ class ListViewController: UITableViewController {
         
         return cell
     }
+    
+    @IBAction func newclick(_ sender: UIButton) {
+        let coreData = CoreData.getInstance()
+        let managedObjectContext = coreData.createManagedObjectContext()
+        
+        let person = NSEntityDescription.insertNewObject(forEntityName: "Entry",
+                                                         into:managedObjectContext) as! Entry
+        do {
+            try managedObjectContext.save()
+        }
+        catch{}
+        
+        person.text = "New Entry"
+        person.date = NSDate()
+        person.amount = 0.00
+        
+        results.append(person)
+        
+        self.tableView.reloadData()
+    }
 }
 
 

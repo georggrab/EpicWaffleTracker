@@ -44,7 +44,7 @@ public class CoreData {
     public static func getInstance() -> CoreData {
         if(instance == nil){
             do {
-                instance = try CoreData(sqliteDocumentName: "ewt.db", schemaName: "ewt")
+                instance = try CoreData(sqliteDocumentName: "ewt.db", schemaName: "Model")
             }
             catch { }
         }
