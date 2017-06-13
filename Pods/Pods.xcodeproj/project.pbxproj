@@ -7,141 +7,251 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B5CF69E73F88F891D4804814636BF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
-		0E5A43330A23B5D6B4082FA27419D2A2 /* TSCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8231896E2BF8CA45583FCC6104A9984B /* TSCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45D13B5705B66075FC5A41C039B80330 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A94D207F512164FD4099131FC41228 /* Toast-Swift-dummy.m */; };
-		4DF51C54ED06B5A41D6E28DC88449C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		644B6ADBA6C5F0CAEFA4849084976AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		6C9153914A62210043EADAB7B2131D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		71349CD8BD2A3172BC904E2DBF5AE950 /* Pods-EpicWaffleTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF18EF9A39A7FF7750986109B6B73E /* Pods-EpicWaffleTracker-dummy.m */; };
-		83CDF4A9B6F6DC868C66B6E635397C46 /* TSCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031716CD9E29F39243C3BC0E91E741D0 /* TSCurrencyTextField-dummy.m */; };
-		8B2BE1292FED6FA9753DAF9D98E12C4A /* TSCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B2FFF7D42FE106B98F4C01210108B4 /* TSCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0C5AC62B891CCA12DD9AE9FACD5F297 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2D211C32368F8B444FFD23A908FB58 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3C92C4B3AD32CA7701856B5B1E00B3D /* Pods-EpicWaffleTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB243506C9D02A1AC0D5FF34907F36B /* Pods-EpicWaffleTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4074FA6438439D3A2244AD0E6BD144A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D39FEBD9B3C9ECF1848E02F33C9B8 /* Toast.swift */; };
-		EDCFFF91AF1694381DEC00173153D950 /* TSCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D89CAB3EDF31D2014A7AF3474933A3 /* TSCurrencyTextField.m */; };
+		0A7AF0E9B853211DE831CAAD4C21F11C /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 72147AFAA0E8C4F52B88C18AA37C4EE9 /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DC37ADA35DC53E3DAF0046543C1B0B6 /* TSCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADE4C21451F3338785A7284A3755540 /* TSCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD46AF65FABE6D2BDE4501F807046A6 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ECC59A0A0F6104586BB064D55B3268 /* FSCalendarAppearance.m */; };
+		128FE667FDB7D596DADE76172D11D946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		1873F875141225AEB7FA54EEE4118E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		243E3FBB25AD6B55CDF6971E0D22DA4F /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8317F08488461845A8F9016286409F /* FSCalendarConstants.m */; };
+		49F1C59A34E52484FD2B6462CE8D7C91 /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F47DE941887DCA192E99F734A3669080 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6A574C9B9115A1851971869986C021 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 457583BF58FD0D65C59EC601936F94FC /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55F4561E55A6CF264BEDB8FB18B5FA8C /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9DF9F17D3B439C39EF49F1A8DF6486 /* FSCalendarCell.m */; };
+		57D4F36C483A487950FA1F143AE5DCBC /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DB022B648BF63BA37F73CC037769CD /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C62C27E2855390100E9519DE3095DDB /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D529F17F732B9EA52685D9177BD5FC2 /* FSCalendarHeaderView.m */; };
+		625F05F7702CA250DEB66A699766DA9E /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D95AE7D2BA4FD773C4FD155D9D464772 /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66737F48243D514269C499D65A7B4DBE /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D135FAFCACA9E48B3B554E7532347DE4 /* FSCalendar.m */; };
+		712FF0C70B4C85F44AFB5CDDC1DD9018 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C139561B802C0228D97EDF2609389317 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E320930D1F4218F307C7FB786F0C514 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC86D6C52CFE03093EBB2D6D6B7899F /* FSCalendarCollectionView.m */; };
+		8632FCFA0471878FC95240290BE97458 /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF580C87272663F57C0FEC6EFF094D5C /* FSCalendar-dummy.m */; };
+		8E8E60E0406837DF7038528766C90AEA /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA18C45F214C8D62708B2ACF1DF4B88 /* FSCalendarScopeHandle.m */; };
+		8F7003744526BA3547F59200EE4F4D16 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F4BA2CE3FB49D8314CB2F814C64000 /* FSCalendarWeekdayView.m */; };
+		91693C90642539B4F411E794548A9E2A /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EC16E2E5BF091C1E0370A26BACAEC69C /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9628699DC3B870D1E585D17ED9B01F41 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB831C5A10B14C6EB02767D2E60A8D6 /* Toast-Swift-dummy.m */; };
+		96E021283F050BCADF9A9B668C77B203 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6321ABD53B2815585B7559D49FEFE84 /* FSCalendarExtensions.m */; };
+		9CF04404C01848D25E78B22A88BFF129 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 704EC3FF44C12FBAF8F1F7C59FA707B8 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0D93DA8BB6979EF78ECF24AFD50733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
+		9FE799FF5512C02C097E2D184B61C4BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		A000A7A7023F7FB4CEDD1023EB87BF93 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E136ADACA7B771068788B578504D9 /* FSCalendarCollectionViewLayout.m */; };
+		A3D1147CED9648BEDE2E47B8E8A44924 /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 105E5F5A23144224E97FE5C64CF5ADD7 /* FSCalendar+Deprecated.m */; };
+		A490AF064D92D52F93509F4D21199A12 /* TSCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F460BEC593B2E639245CED090C67776 /* TSCurrencyTextField.m */; };
+		AA978FCF3EF1D8D10DDE3BB4C6312A7B /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D541888F0635696C0E86248CC361B736 /* FSCalendarDelegationProxy.m */; };
+		BDA1ED05CBA5580B30785A431D5B231B /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFA6B5E7483EE3AD7E75A56B2D64C24 /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17D68C964954EF1C0BB3C314C2F452F /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50BE5FA077A69C2B858B1F5A5168B4 /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69663957B2EB4C7CF4D8192480AA8B4 /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CCA0C3955C510B1EA336F79C706A6D6 /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D5FEEBAC1F9B667E29114D1A5B685C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74313F4BFF8BB3CB0B9C336A235B2D62 /* Toast.swift */; };
+		CDB052C277F6148BBAACB2C2C7C6321B /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE53FC602997B037B263614F81127C1 /* FSCalendarTransitionCoordinator.m */; };
+		D0BBF0E841352738F6876F69E7BA3D35 /* Pods-EpicWaffleTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF18EF9A39A7FF7750986109B6B73E /* Pods-EpicWaffleTracker-dummy.m */; };
+		D20958D6317210906B03FF27C949B941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		D4F3BEEB43698475E5443150838E84ED /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B71023D20749269FB272D53892A20459 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E39B9A86F98279245C1A1C993E65C2 /* Pods-EpicWaffleTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB243506C9D02A1AC0D5FF34907F36B /* Pods-EpicWaffleTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B077BAFD8840CA3D96BB4545B7B255 /* FSCalendarScopeHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4D03E54B7C25AD541DCD40DE9E3CA1 /* FSCalendarScopeHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2BBB2BBD4097271BE4E21BF5F543316 /* TSCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1D303E87ABDC5D78747DCA6EE5F0C0 /* TSCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B93CDF418A2678614DDAD9331C0C0D /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6B6E32B427E300BAA655EC8BE982D1 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC658FAF7D79A2F9980E9B5607BE52FB /* TSCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4C88FB3D8DA3D997503AD6CCBF83F /* TSCurrencyTextField-dummy.m */; };
+		EE078A13105301767BE0ECAC1705A9B5 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D289B3392F928B17BAEC9E290BEDCD1 /* FSCalendarStickyHeader.m */; };
+		EF79B42952D4B407242484D9CC034392 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
+		F54E2CAED6EAE74D9E1F878E10FA30BD /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA31C2E2C7E5F9716BD78516FE7765 /* FSCalendarDelegationFactory.m */; };
+		F6A1EC699E916996EF2B7B4C6137DB8D /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F598A8CE1D9675619D85C7B2B249D36D /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F746795DC38AD2DB3D584A110174FED0 /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8089DDB57580F3E8CD2C71D42FBD43 /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75DFB5A6E8642C4964CC3968A2DD0C8 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6ADEA9FA942FD3E41E299CEABAB25D /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA98350AA21917408DA7C53BB52BD139 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
+		FD051B5A9F3E663081656EB261A724D2 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = DA811187A139E2CFA702D77F0C39C576 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFBEAF63A28F6A7DD881E8256F9503B7 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B3BCEE7DB569831FC192F71F5D2D7 /* FSCalendarCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		25A967D21FD1749426A6868B137724F3 /* PBXContainerItemProxy */ = {
+		766F0673C2FDFF1C76D13086B5582B06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E674A1530B8DFA27EE31CEB1AF3EE0B;
-			remoteInfo = TSCurrencyTextField;
+			remoteGlobalIDString = C5A2DB7A84B7B78E359870D2E1B24AA7;
+			remoteInfo = FSCalendar;
 		};
-		29EBCB8007EAB2A4B3D8B65920FB78B1 /* PBXContainerItemProxy */ = {
+		A4D590C9EDA7861C7FE96D9B8737DB55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6835606DD392E0B94761D87905937618;
+			remoteGlobalIDString = 208E8DA0C9449D3DE4047EC3CC1FB7DF;
 			remoteInfo = "Toast-Swift";
+		};
+		A861C9335C008D5619F28E638A476687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C150AB3129AE5C579F783E6C89FEADB;
+			remoteInfo = TSCurrencyTextField;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		031716CD9E29F39243C3BC0E91E741D0 /* TSCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
-		0BC68B576E59B875CD92F16D99E20256 /* TSCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
-		14D89CAB3EDF31D2014A7AF3474933A3 /* TSCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSCurrencyTextField.m; path = TSCurrencyTextField/TSCurrencyTextField.m; sourceTree = "<group>"; };
-		2CD0E46F084C5D595DBD2167D36945F8 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0052979243953F90C2D038FE94D89BBF /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		080C525ECFDF00DEC7EF72411D58F2B9 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		09F4BA2CE3FB49D8314CB2F814C64000 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		0ADE4C21451F3338785A7284A3755540 /* TSCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
+		105E5F5A23144224E97FE5C64CF5ADD7 /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FSCalendar+Deprecated.m"; path = "FSCalendar/FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		177486AD74DDF55211279B9DF076FED6 /* TSCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSCurrencyTextField.framework; path = TSCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDA31C2E2C7E5F9716BD78516FE7765 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		2CCA0C3955C510B1EA336F79C706A6D6 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		2D529F17F732B9EA52685D9177BD5FC2 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		2D6ADEA9FA942FD3E41E299CEABAB25D /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		2E4D03E54B7C25AD541DCD40DE9E3CA1 /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarScopeHandle.h; path = FSCalendar/FSCalendarScopeHandle.h; sourceTree = "<group>"; };
 		31E4759D01E1C27DE0391A33DD9C6D37 /* Pods-EpicWaffleTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpicWaffleTracker-frameworks.sh"; sourceTree = "<group>"; };
-		35A93C3A9DFCA635FEFDE9F5C8279C44 /* TSCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSCurrencyTextField.xcconfig; sourceTree = "<group>"; };
+		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35148CF7A7A62A620CF009192BC62ECE /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F460BEC593B2E639245CED090C67776 /* TSCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSCurrencyTextField.m; path = TSCurrencyTextField/TSCurrencyTextField.m; sourceTree = "<group>"; };
+		40DB022B648BF63BA37F73CC037769CD /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		457583BF58FD0D65C59EC601936F94FC /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
 		5048453596E2ED21977E8BB405668372 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B43828F6C3519C2402268DFD32BFBB3 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
-		6CFFCB01F6EBEB1625A3243F22598DA4 /* TSCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSCurrencyTextField.framework; path = TSCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7744C5AFB6B8F3263D62D42DB5D6B57A /* Pods_EpicWaffleTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EpicWaffleTracker.framework; path = "Pods-EpicWaffleTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F0DE5D1BA6FBAE2F014B7F70843665A /* TSCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TSCurrencyTextField.modulemap; sourceTree = "<group>"; };
-		8231896E2BF8CA45583FCC6104A9984B /* TSCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
+		5127509FCE44B23F6A855ACB70C81F3A /* FSCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.xcconfig; sourceTree = "<group>"; };
+		54D57E6E885FEC0480FEF883B0C33325 /* TSCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TSCurrencyTextField.modulemap; sourceTree = "<group>"; };
+		5C92B8B0A4050515ACDC10F22496F5EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9DF9F17D3B439C39EF49F1A8DF6486 /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		6D289B3392F928B17BAEC9E290BEDCD1 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		6F8317F08488461845A8F9016286409F /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		704EC3FF44C12FBAF8F1F7C59FA707B8 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		72147AFAA0E8C4F52B88C18AA37C4EE9 /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		74313F4BFF8BB3CB0B9C336A235B2D62 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		79866AA8503FB8DDAF24963D5386F07C /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8089DDB57580F3E8CD2C71D42FBD43 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		7F1B3BCEE7DB569831FC192F71F5D2D7 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		7FBF7E24216EE537BD9217A60C6B12A7 /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		8034A4CE2E59888A1BA20DBE994FFC02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AFF18EF9A39A7FF7750986109B6B73E /* Pods-EpicWaffleTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EpicWaffleTracker-dummy.m"; sourceTree = "<group>"; };
+		8CB831C5A10B14C6EB02767D2E60A8D6 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		8EA18C45F214C8D62708B2ACF1DF4B88 /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarScopeHandle.m; path = FSCalendar/FSCalendarScopeHandle.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		960A54F90A3820CD5EDD219DF4EB17DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1AF6EEB89C23305CF5006F1C62CCF69 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		95CC6AB36FA48B6E03420D88E4A89F4E /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		9AC86D6C52CFE03093EBB2D6D6B7899F /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		9E1D303E87ABDC5D78747DCA6EE5F0C0 /* TSCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSCurrencyTextField.h; path = TSCurrencyTextField/TSCurrencyTextField.h; sourceTree = "<group>"; };
+		9EA94796231469F4006BC0C50A51C255 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		A6B7815449D9B319915DA0424992810B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A81666FFD9ECA758D2D6C2EC93D059B0 /* Pods-EpicWaffleTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpicWaffleTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		B2B2FFF7D42FE106B98F4C01210108B4 /* TSCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSCurrencyTextField.h; path = TSCurrencyTextField/TSCurrencyTextField.h; sourceTree = "<group>"; };
-		BC2D211C32368F8B444FFD23A908FB58 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		A85CC491375A5D5F7ECD99438F231A70 /* TSCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
+		B71023D20749269FB272D53892A20459 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
 		BDCE47E39650E47B7F985692F1A978AF /* Pods-EpicWaffleTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpicWaffleTracker.release.xcconfig"; sourceTree = "<group>"; };
 		BE37D6C00D590E90C487A0A8AD70F689 /* Pods-EpicWaffleTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EpicWaffleTracker-acknowledgements.plist"; sourceTree = "<group>"; };
 		BEB243506C9D02A1AC0D5FF34907F36B /* Pods-EpicWaffleTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EpicWaffleTracker-umbrella.h"; sourceTree = "<group>"; };
+		C139561B802C0228D97EDF2609389317 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		CE8CD9E03447589AF89647B74D9DF6C2 /* TSCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSCurrencyTextField.xcconfig; sourceTree = "<group>"; };
+		CF3C42A6ED8D9CACE3A05E5EF40D27DF /* Pods_EpicWaffleTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EpicWaffleTracker.framework; path = "Pods-EpicWaffleTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF580C87272663F57C0FEC6EFF094D5C /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		D135FAFCACA9E48B3B554E7532347DE4 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
 		D2241E53E1E413EB6231A32C954126B4 /* Pods-EpicWaffleTracker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpicWaffleTracker-resources.sh"; sourceTree = "<group>"; };
 		D26EE3E5ED61B730E27CFAE83E67E67A /* Pods-EpicWaffleTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EpicWaffleTracker.modulemap"; sourceTree = "<group>"; };
-		D276D630185C8256BE658A8A8064926D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D541888F0635696C0E86248CC361B736 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		D6321ABD53B2815585B7559D49FEFE84 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		D95AE7D2BA4FD773C4FD155D9D464772 /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		DA811187A139E2CFA702D77F0C39C576 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		DC50BE5FA077A69C2B858B1F5A5168B4 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		DD6B6E32B427E300BAA655EC8BE982D1 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		DDA4C88FB3D8DA3D997503AD6CCBF83F /* TSCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
+		E4ECC59A0A0F6104586BB064D55B3268 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		EC16E2E5BF091C1E0370A26BACAEC69C /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		ECE53FC602997B037B263614F81127C1 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
 		F3F16B1EE3D964D920DC81316A0AA291 /* Pods-EpicWaffleTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EpicWaffleTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7A94D207F512164FD4099131FC41228 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
-		F83FE2F04B19C3FD037770C91536254F /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
-		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		FF8D39FEBD9B3C9ECF1848E02F33C9B8 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		F47DE941887DCA192E99F734A3669080 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		F598A8CE1D9675619D85C7B2B249D36D /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FDFA6B5E7483EE3AD7E75A56B2D64C24 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		FF8E136ADACA7B771068788B578504D9 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D84C3362D6AA724D05C7A3E4BD5B0BF /* Frameworks */ = {
+		0D71EB3C8134F53226862EBB43DA02A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644B6ADBA6C5F0CAEFA4849084976AFD /* Foundation.framework in Frameworks */,
+				D20958D6317210906B03FF27C949B941 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		937401F38F04AA186009B357F7425693 /* Frameworks */ = {
+		2B0C121755DBF940DA569A041E683C9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DF51C54ED06B5A41D6E28DC88449C36 /* Foundation.framework in Frameworks */,
-				04B5CF69E73F88F891D4804814636BF4 /* QuartzCore.framework in Frameworks */,
+				9FE799FF5512C02C097E2D184B61C4BE /* Foundation.framework in Frameworks */,
+				EF79B42952D4B407242484D9CC034392 /* QuartzCore.framework in Frameworks */,
+				9D0D93DA8BB6979EF78ECF24AFD50733 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAE5D6D0F034C519211820B6CA9D87E9 /* Frameworks */ = {
+		4DA400223058D0BE8E41851B685D663D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C9153914A62210043EADAB7B2131D57 /* Foundation.framework in Frameworks */,
+				128FE667FDB7D596DADE76172D11D946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0AC794608889454095ACB2DD3C3554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1873F875141225AEB7FA54EEE4118E68 /* Foundation.framework in Frameworks */,
+				FA98350AA21917408DA7C53BB52BD139 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3AD73266F08C3C812F6B66E7FA8DC077 /* Toast-Swift */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF8D39FEBD9B3C9ECF1848E02F33C9B8 /* Toast.swift */,
-				5514003D535498EC0A515B5477E5D1C5 /* Support Files */,
-			);
-			name = "Toast-Swift";
-			path = "Toast-Swift";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4EB39A1D0B6C785272E6347E4DAA2D22 /* Products */ = {
+		3789512ADB0120F5B1E27D5C3AC1B6B5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				7744C5AFB6B8F3263D62D42DB5D6B57A /* Pods_EpicWaffleTracker.framework */,
-				2CD0E46F084C5D595DBD2167D36945F8 /* Toast_Swift.framework */,
-				6CFFCB01F6EBEB1625A3243F22598DA4 /* TSCurrencyTextField.framework */,
+				9E1D303E87ABDC5D78747DCA6EE5F0C0 /* TSCurrencyTextField.h */,
+				3F460BEC593B2E639245CED090C67776 /* TSCurrencyTextField.m */,
 			);
-			name = Products;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		5514003D535498EC0A515B5477E5D1C5 /* Support Files */ = {
+		579B3A0BB0E5CAAAB25C8534F0FDE709 /* FSCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				D276D630185C8256BE658A8A8064926D /* Info.plist */,
-				6B43828F6C3519C2402268DFD32BFBB3 /* Toast-Swift.modulemap */,
-				F83FE2F04B19C3FD037770C91536254F /* Toast-Swift.xcconfig */,
-				F7A94D207F512164FD4099131FC41228 /* Toast-Swift-dummy.m */,
-				A1AF6EEB89C23305CF5006F1C62CCF69 /* Toast-Swift-prefix.pch */,
-				BC2D211C32368F8B444FFD23A908FB58 /* Toast-Swift-umbrella.h */,
+				704EC3FF44C12FBAF8F1F7C59FA707B8 /* FSCalendar.h */,
+				D135FAFCACA9E48B3B554E7532347DE4 /* FSCalendar.m */,
+				105E5F5A23144224E97FE5C64CF5ADD7 /* FSCalendar+Deprecated.m */,
+				DA811187A139E2CFA702D77F0C39C576 /* FSCalendarAppearance.h */,
+				E4ECC59A0A0F6104586BB064D55B3268 /* FSCalendarAppearance.m */,
+				7E8089DDB57580F3E8CD2C71D42FBD43 /* FSCalendarCalculator.h */,
+				7F1B3BCEE7DB569831FC192F71F5D2D7 /* FSCalendarCalculator.m */,
+				2D6ADEA9FA942FD3E41E299CEABAB25D /* FSCalendarCell.h */,
+				5F9DF9F17D3B439C39EF49F1A8DF6486 /* FSCalendarCell.m */,
+				DD6B6E32B427E300BAA655EC8BE982D1 /* FSCalendarCollectionView.h */,
+				9AC86D6C52CFE03093EBB2D6D6B7899F /* FSCalendarCollectionView.m */,
+				EC16E2E5BF091C1E0370A26BACAEC69C /* FSCalendarCollectionViewLayout.h */,
+				FF8E136ADACA7B771068788B578504D9 /* FSCalendarCollectionViewLayout.m */,
+				72147AFAA0E8C4F52B88C18AA37C4EE9 /* FSCalendarConstants.h */,
+				6F8317F08488461845A8F9016286409F /* FSCalendarConstants.m */,
+				40DB022B648BF63BA37F73CC037769CD /* FSCalendarDelegationFactory.h */,
+				1DDA31C2E2C7E5F9716BD78516FE7765 /* FSCalendarDelegationFactory.m */,
+				F47DE941887DCA192E99F734A3669080 /* FSCalendarDelegationProxy.h */,
+				D541888F0635696C0E86248CC361B736 /* FSCalendarDelegationProxy.m */,
+				C139561B802C0228D97EDF2609389317 /* FSCalendarDynamicHeader.h */,
+				2CCA0C3955C510B1EA336F79C706A6D6 /* FSCalendarExtensions.h */,
+				D6321ABD53B2815585B7559D49FEFE84 /* FSCalendarExtensions.m */,
+				F598A8CE1D9675619D85C7B2B249D36D /* FSCalendarHeaderView.h */,
+				2D529F17F732B9EA52685D9177BD5FC2 /* FSCalendarHeaderView.m */,
+				2E4D03E54B7C25AD541DCD40DE9E3CA1 /* FSCalendarScopeHandle.h */,
+				8EA18C45F214C8D62708B2ACF1DF4B88 /* FSCalendarScopeHandle.m */,
+				B71023D20749269FB272D53892A20459 /* FSCalendarStickyHeader.h */,
+				6D289B3392F928B17BAEC9E290BEDCD1 /* FSCalendarStickyHeader.m */,
+				FDFA6B5E7483EE3AD7E75A56B2D64C24 /* FSCalendarTransitionCoordinator.h */,
+				ECE53FC602997B037B263614F81127C1 /* FSCalendarTransitionCoordinator.m */,
+				DC50BE5FA077A69C2B858B1F5A5168B4 /* FSCalendarWeekdayView.h */,
+				09F4BA2CE3FB49D8314CB2F814C64000 /* FSCalendarWeekdayView.m */,
+				C966ACB2DA19C29315C667D3956AD545 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast-Swift";
+			name = FSCalendar;
+			path = FSCalendar;
 			sourceTree = "<group>";
 		};
 		5CD71D044A2DDF7C619A68A11521C60D /* Targets Support Files */ = {
@@ -152,66 +262,73 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7354C09F0AB8B06D5D09CB5A41E4BC1E /* TSCurrencyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3789512ADB0120F5B1E27D5C3AC1B6B5 /* Core */,
+				D298A840B5EB66E553E09EC855F85D97 /* Support Files */,
+			);
+			name = TSCurrencyTextField;
+			path = TSCurrencyTextField;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				9C4871E80948A8E9143104EA7F4DD0C8 /* Pods */,
-				4EB39A1D0B6C785272E6347E4DAA2D22 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				FF5D848E506C4EDB28F78E6582DD9C97 /* Pods */,
+				DE3C110D354EBF9E24FBF06DD9344E76 /* Products */,
 				5CD71D044A2DDF7C619A68A11521C60D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		851DBDC3688BB43D638738297ED2F1E8 /* Support Files */ = {
+		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				960A54F90A3820CD5EDD219DF4EB17DC /* Info.plist */,
-				7F0DE5D1BA6FBAE2F014B7F70843665A /* TSCurrencyTextField.modulemap */,
-				35A93C3A9DFCA635FEFDE9F5C8279C44 /* TSCurrencyTextField.xcconfig */,
-				031716CD9E29F39243C3BC0E91E741D0 /* TSCurrencyTextField-dummy.m */,
-				0BC68B576E59B875CD92F16D99E20256 /* TSCurrencyTextField-prefix.pch */,
-				8231896E2BF8CA45583FCC6104A9984B /* TSCurrencyTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TSCurrencyTextField";
-			sourceTree = "<group>";
-		};
-		873A53612F1636B07099CFE90F5E6756 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				B2B2FFF7D42FE106B98F4C01210108B4 /* TSCurrencyTextField.h */,
-				14D89CAB3EDF31D2014A7AF3474933A3 /* TSCurrencyTextField.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
-				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+				33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */,
+				FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */,
+				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9C4871E80948A8E9143104EA7F4DD0C8 /* Pods */ = {
+		9F98A6639CF111374D50184ED83B4955 /* Toast-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				3AD73266F08C3C812F6B66E7FA8DC077 /* Toast-Swift */,
-				A296CBBB00A5DD2409B4AAFD0EA1EE7F /* TSCurrencyTextField */,
+				74313F4BFF8BB3CB0B9C336A235B2D62 /* Toast.swift */,
+				A7DE3D04338215D3D49AA78D83879C1E /* Support Files */,
 			);
-			name = Pods;
+			name = "Toast-Swift";
+			path = "Toast-Swift";
 			sourceTree = "<group>";
 		};
-		A296CBBB00A5DD2409B4AAFD0EA1EE7F /* TSCurrencyTextField */ = {
+		A7DE3D04338215D3D49AA78D83879C1E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				873A53612F1636B07099CFE90F5E6756 /* Core */,
-				851DBDC3688BB43D638738297ED2F1E8 /* Support Files */,
+				A6B7815449D9B319915DA0424992810B /* Info.plist */,
+				0052979243953F90C2D038FE94D89BBF /* Toast-Swift.modulemap */,
+				95CC6AB36FA48B6E03420D88E4A89F4E /* Toast-Swift.xcconfig */,
+				8CB831C5A10B14C6EB02767D2E60A8D6 /* Toast-Swift-dummy.m */,
+				9EA94796231469F4006BC0C50A51C255 /* Toast-Swift-prefix.pch */,
+				457583BF58FD0D65C59EC601936F94FC /* Toast-Swift-umbrella.h */,
 			);
-			name = TSCurrencyTextField;
-			path = TSCurrencyTextField;
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		C966ACB2DA19C29315C667D3956AD545 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FBF7E24216EE537BD9217A60C6B12A7 /* FSCalendar.modulemap */,
+				5127509FCE44B23F6A855ACB70C81F3A /* FSCalendar.xcconfig */,
+				CF580C87272663F57C0FEC6EFF094D5C /* FSCalendar-dummy.m */,
+				080C525ECFDF00DEC7EF72411D58F2B9 /* FSCalendar-prefix.pch */,
+				D95AE7D2BA4FD773C4FD155D9D464772 /* FSCalendar-umbrella.h */,
+				5C92B8B0A4050515ACDC10F22496F5EA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
 			sourceTree = "<group>";
 		};
 		CF0A9E168805D07B44115EA1D2B6359E /* Pods-EpicWaffleTracker */ = {
@@ -232,80 +349,123 @@
 			path = "Target Support Files/Pods-EpicWaffleTracker";
 			sourceTree = "<group>";
 		};
+		D298A840B5EB66E553E09EC855F85D97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8034A4CE2E59888A1BA20DBE994FFC02 /* Info.plist */,
+				54D57E6E885FEC0480FEF883B0C33325 /* TSCurrencyTextField.modulemap */,
+				CE8CD9E03447589AF89647B74D9DF6C2 /* TSCurrencyTextField.xcconfig */,
+				DDA4C88FB3D8DA3D997503AD6CCBF83F /* TSCurrencyTextField-dummy.m */,
+				A85CC491375A5D5F7ECD99438F231A70 /* TSCurrencyTextField-prefix.pch */,
+				0ADE4C21451F3338785A7284A3755540 /* TSCurrencyTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TSCurrencyTextField";
+			sourceTree = "<group>";
+		};
+		DE3C110D354EBF9E24FBF06DD9344E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35148CF7A7A62A620CF009192BC62ECE /* FSCalendar.framework */,
+				CF3C42A6ED8D9CACE3A05E5EF40D27DF /* Pods_EpicWaffleTracker.framework */,
+				79866AA8503FB8DDAF24963D5386F07C /* Toast_Swift.framework */,
+				177486AD74DDF55211279B9DF076FED6 /* TSCurrencyTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5D848E506C4EDB28F78E6582DD9C97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				579B3A0BB0E5CAAAB25C8534F0FDE709 /* FSCalendar */,
+				9F98A6639CF111374D50184ED83B4955 /* Toast-Swift */,
+				7354C09F0AB8B06D5D09CB5A41E4BC1E /* TSCurrencyTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		622343E7FBC19AA29CB11F7273E88EED /* Headers */ = {
+		23BC45E60C6DDA836983B89F9CDE8B2C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E5A43330A23B5D6B4082FA27419D2A2 /* TSCurrencyTextField-umbrella.h in Headers */,
-				8B2BE1292FED6FA9753DAF9D98E12C4A /* TSCurrencyTextField.h in Headers */,
+				D6E39B9A86F98279245C1A1C993E65C2 /* Pods-EpicWaffleTracker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA9908141D20BD9A5D895190A5035253 /* Headers */ = {
+		845E1A6F79EC712E13255339028163ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C92C4B3AD32CA7701856B5B1E00B3D /* Pods-EpicWaffleTracker-umbrella.h in Headers */,
+				0DC37ADA35DC53E3DAF0046543C1B0B6 /* TSCurrencyTextField-umbrella.h in Headers */,
+				E2BBB2BBD4097271BE4E21BF5F543316 /* TSCurrencyTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEBB0DFA96DFB2081E0BC166E6C45B40 /* Headers */ = {
+		B37123E85976283D491A2BE11328FC01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0C5AC62B891CCA12DD9AE9FACD5F297 /* Toast-Swift-umbrella.h in Headers */,
+				4A6A574C9B9115A1851971869986C021 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5EFE33C112D00A2A9DE597CBC519EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625F05F7702CA250DEB66A699766DA9E /* FSCalendar-umbrella.h in Headers */,
+				9CF04404C01848D25E78B22A88BFF129 /* FSCalendar.h in Headers */,
+				FD051B5A9F3E663081656EB261A724D2 /* FSCalendarAppearance.h in Headers */,
+				F746795DC38AD2DB3D584A110174FED0 /* FSCalendarCalculator.h in Headers */,
+				F75DFB5A6E8642C4964CC3968A2DD0C8 /* FSCalendarCell.h in Headers */,
+				E3B93CDF418A2678614DDAD9331C0C0D /* FSCalendarCollectionView.h in Headers */,
+				91693C90642539B4F411E794548A9E2A /* FSCalendarCollectionViewLayout.h in Headers */,
+				0A7AF0E9B853211DE831CAAD4C21F11C /* FSCalendarConstants.h in Headers */,
+				57D4F36C483A487950FA1F143AE5DCBC /* FSCalendarDelegationFactory.h in Headers */,
+				49F1C59A34E52484FD2B6462CE8D7C91 /* FSCalendarDelegationProxy.h in Headers */,
+				712FF0C70B4C85F44AFB5CDDC1DD9018 /* FSCalendarDynamicHeader.h in Headers */,
+				C69663957B2EB4C7CF4D8192480AA8B4 /* FSCalendarExtensions.h in Headers */,
+				F6A1EC699E916996EF2B7B4C6137DB8D /* FSCalendarHeaderView.h in Headers */,
+				E1B077BAFD8840CA3D96BB4545B7B255 /* FSCalendarScopeHandle.h in Headers */,
+				D4F3BEEB43698475E5443150838E84ED /* FSCalendarStickyHeader.h in Headers */,
+				BDA1ED05CBA5580B30785A431D5B231B /* FSCalendarTransitionCoordinator.h in Headers */,
+				C17D68C964954EF1C0BB3C314C2F452F /* FSCalendarWeekdayView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15311C2B50110EE5D3B255A90F3C9598 /* Pods-EpicWaffleTracker */ = {
+		1C85ECDA5F8E025A17BDD52C11424FFD /* Pods-EpicWaffleTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36C5075F9D5D1C926C95FCB7F1E69F9E /* Build configuration list for PBXNativeTarget "Pods-EpicWaffleTracker" */;
+			buildConfigurationList = DC51CC3D8CE0F386C7B5796E6F10E2A5 /* Build configuration list for PBXNativeTarget "Pods-EpicWaffleTracker" */;
 			buildPhases = (
-				33EEED164B38F13A2E9DB94B2E7D53CE /* Sources */,
-				2D84C3362D6AA724D05C7A3E4BD5B0BF /* Frameworks */,
-				EA9908141D20BD9A5D895190A5035253 /* Headers */,
+				FF5F67003DEA2F0A281D2DB8F417BB73 /* Sources */,
+				4DA400223058D0BE8E41851B685D663D /* Frameworks */,
+				23BC45E60C6DDA836983B89F9CDE8B2C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2A70A04D8A850D39F365830D89E99488 /* PBXTargetDependency */,
-				FBDD1D6CCD9C86CDA96C3E8FC3DD126A /* PBXTargetDependency */,
+				B2A2B43E006BC4AB22621A534432EF69 /* PBXTargetDependency */,
+				0262364CC4B2EA2497C7002672466EDB /* PBXTargetDependency */,
+				9DDEF6E3A92908E2AD24D4187C99F1C7 /* PBXTargetDependency */,
 			);
 			name = "Pods-EpicWaffleTracker";
 			productName = "Pods-EpicWaffleTracker";
-			productReference = 7744C5AFB6B8F3263D62D42DB5D6B57A /* Pods_EpicWaffleTracker.framework */;
+			productReference = CF3C42A6ED8D9CACE3A05E5EF40D27DF /* Pods_EpicWaffleTracker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4E674A1530B8DFA27EE31CEB1AF3EE0B /* TSCurrencyTextField */ = {
+		208E8DA0C9449D3DE4047EC3CC1FB7DF /* Toast-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ACDDCB49DA131DA9AE0153837AC5B8C /* Build configuration list for PBXNativeTarget "TSCurrencyTextField" */;
+			buildConfigurationList = DABC0BBE248B25AC29C5F171AC5514FC /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
 			buildPhases = (
-				B2AC5A3A8129C1AC290C1BC387C2300B /* Sources */,
-				CAE5D6D0F034C519211820B6CA9D87E9 /* Frameworks */,
-				622343E7FBC19AA29CB11F7273E88EED /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TSCurrencyTextField;
-			productName = TSCurrencyTextField;
-			productReference = 6CFFCB01F6EBEB1625A3243F22598DA4 /* TSCurrencyTextField.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6835606DD392E0B94761D87905937618 /* Toast-Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4519E8A99B16D20E75041E4AA3E99440 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
-			buildPhases = (
-				A1F86D3E2BE12469887CE02F7BC4517B /* Sources */,
-				937401F38F04AA186009B357F7425693 /* Frameworks */,
-				FEBB0DFA96DFB2081E0BC166E6C45B40 /* Headers */,
+				D70330BCA4FF785109FA15351D51478F /* Sources */,
+				BB0AC794608889454095ACB2DD3C3554 /* Frameworks */,
+				B37123E85976283D491A2BE11328FC01 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -313,7 +473,41 @@
 			);
 			name = "Toast-Swift";
 			productName = "Toast-Swift";
-			productReference = 2CD0E46F084C5D595DBD2167D36945F8 /* Toast_Swift.framework */;
+			productReference = 79866AA8503FB8DDAF24963D5386F07C /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C150AB3129AE5C579F783E6C89FEADB /* TSCurrencyTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A52E7F1823D81480109FD67C7AEE7C /* Build configuration list for PBXNativeTarget "TSCurrencyTextField" */;
+			buildPhases = (
+				FF35818AD14327510C2C59CE3BD31B46 /* Sources */,
+				0D71EB3C8134F53226862EBB43DA02A1 /* Frameworks */,
+				845E1A6F79EC712E13255339028163ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSCurrencyTextField;
+			productName = TSCurrencyTextField;
+			productReference = 177486AD74DDF55211279B9DF076FED6 /* TSCurrencyTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5A2DB7A84B7B78E359870D2E1B24AA7 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E489D1BD67E6516082312A3038C627E /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				3ECDCA9AFCCC7F02686144C6CFD30A86 /* Sources */,
+				2B0C121755DBF940DA569A041E683C9E /* Frameworks */,
+				FA5EFE33C112D00A2A9DE597CBC519EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 35148CF7A7A62A620CF009192BC62ECE /* FSCalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -333,62 +527,160 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4EB39A1D0B6C785272E6347E4DAA2D22 /* Products */;
+			productRefGroup = DE3C110D354EBF9E24FBF06DD9344E76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15311C2B50110EE5D3B255A90F3C9598 /* Pods-EpicWaffleTracker */,
-				6835606DD392E0B94761D87905937618 /* Toast-Swift */,
-				4E674A1530B8DFA27EE31CEB1AF3EE0B /* TSCurrencyTextField */,
+				C5A2DB7A84B7B78E359870D2E1B24AA7 /* FSCalendar */,
+				1C85ECDA5F8E025A17BDD52C11424FFD /* Pods-EpicWaffleTracker */,
+				208E8DA0C9449D3DE4047EC3CC1FB7DF /* Toast-Swift */,
+				5C150AB3129AE5C579F783E6C89FEADB /* TSCurrencyTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33EEED164B38F13A2E9DB94B2E7D53CE /* Sources */ = {
+		3ECDCA9AFCCC7F02686144C6CFD30A86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71349CD8BD2A3172BC904E2DBF5AE950 /* Pods-EpicWaffleTracker-dummy.m in Sources */,
+				A3D1147CED9648BEDE2E47B8E8A44924 /* FSCalendar+Deprecated.m in Sources */,
+				8632FCFA0471878FC95240290BE97458 /* FSCalendar-dummy.m in Sources */,
+				66737F48243D514269C499D65A7B4DBE /* FSCalendar.m in Sources */,
+				0DD46AF65FABE6D2BDE4501F807046A6 /* FSCalendarAppearance.m in Sources */,
+				FFBEAF63A28F6A7DD881E8256F9503B7 /* FSCalendarCalculator.m in Sources */,
+				55F4561E55A6CF264BEDB8FB18B5FA8C /* FSCalendarCell.m in Sources */,
+				7E320930D1F4218F307C7FB786F0C514 /* FSCalendarCollectionView.m in Sources */,
+				A000A7A7023F7FB4CEDD1023EB87BF93 /* FSCalendarCollectionViewLayout.m in Sources */,
+				243E3FBB25AD6B55CDF6971E0D22DA4F /* FSCalendarConstants.m in Sources */,
+				F54E2CAED6EAE74D9E1F878E10FA30BD /* FSCalendarDelegationFactory.m in Sources */,
+				AA978FCF3EF1D8D10DDE3BB4C6312A7B /* FSCalendarDelegationProxy.m in Sources */,
+				96E021283F050BCADF9A9B668C77B203 /* FSCalendarExtensions.m in Sources */,
+				5C62C27E2855390100E9519DE3095DDB /* FSCalendarHeaderView.m in Sources */,
+				8E8E60E0406837DF7038528766C90AEA /* FSCalendarScopeHandle.m in Sources */,
+				EE078A13105301767BE0ECAC1705A9B5 /* FSCalendarStickyHeader.m in Sources */,
+				CDB052C277F6148BBAACB2C2C7C6321B /* FSCalendarTransitionCoordinator.m in Sources */,
+				8F7003744526BA3547F59200EE4F4D16 /* FSCalendarWeekdayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1F86D3E2BE12469887CE02F7BC4517B /* Sources */ = {
+		D70330BCA4FF785109FA15351D51478F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D13B5705B66075FC5A41C039B80330 /* Toast-Swift-dummy.m in Sources */,
-				C4074FA6438439D3A2244AD0E6BD144A /* Toast.swift in Sources */,
+				9628699DC3B870D1E585D17ED9B01F41 /* Toast-Swift-dummy.m in Sources */,
+				C8D5FEEBAC1F9B667E29114D1A5B685C /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2AC5A3A8129C1AC290C1BC387C2300B /* Sources */ = {
+		FF35818AD14327510C2C59CE3BD31B46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83CDF4A9B6F6DC868C66B6E635397C46 /* TSCurrencyTextField-dummy.m in Sources */,
-				EDCFFF91AF1694381DEC00173153D950 /* TSCurrencyTextField.m in Sources */,
+				EC658FAF7D79A2F9980E9B5607BE52FB /* TSCurrencyTextField-dummy.m in Sources */,
+				A490AF064D92D52F93509F4D21199A12 /* TSCurrencyTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5F67003DEA2F0A281D2DB8F417BB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BBF0E841352738F6876F69E7BA3D35 /* Pods-EpicWaffleTracker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2A70A04D8A850D39F365830D89E99488 /* PBXTargetDependency */ = {
+		0262364CC4B2EA2497C7002672466EDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSCurrencyTextField;
-			target = 4E674A1530B8DFA27EE31CEB1AF3EE0B /* TSCurrencyTextField */;
-			targetProxy = 25A967D21FD1749426A6868B137724F3 /* PBXContainerItemProxy */;
+			target = 5C150AB3129AE5C579F783E6C89FEADB /* TSCurrencyTextField */;
+			targetProxy = A861C9335C008D5619F28E638A476687 /* PBXContainerItemProxy */;
 		};
-		FBDD1D6CCD9C86CDA96C3E8FC3DD126A /* PBXTargetDependency */ = {
+		9DDEF6E3A92908E2AD24D4187C99F1C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Toast-Swift";
-			target = 6835606DD392E0B94761D87905937618 /* Toast-Swift */;
-			targetProxy = 29EBCB8007EAB2A4B3D8B65920FB78B1 /* PBXContainerItemProxy */;
+			target = 208E8DA0C9449D3DE4047EC3CC1FB7DF /* Toast-Swift */;
+			targetProxy = A4D590C9EDA7861C7FE96D9B8737DB55 /* PBXContainerItemProxy */;
+		};
+		B2A2B43E006BC4AB22621A534432EF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = C5A2DB7A84B7B78E359870D2E1B24AA7 /* FSCalendar */;
+			targetProxy = 766F0673C2FDFF1C76D13086B5582B06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02CCF1EBC04651E806962BC22C1C3545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CC6AB36FA48B6E03420D88E4A89F4E /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A6054BC7666BA658305645BA0303843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5127509FCE44B23F6A855ACB70C81F3A /* FSCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -437,7 +729,111 @@
 			};
 			name = Debug;
 		};
-		5897A2C95EEF11410FAA46269CAECFF0 /* Debug */ = {
+		54E1E49AA271E1261073E0CC4060D65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8CD9E03447589AF89647B74D9DF6C2 /* TSCurrencyTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSCurrencyTextField/TSCurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSCurrencyTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSCurrencyTextField/TSCurrencyTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TSCurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69EA10E807637A790703FE4870AB0D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDCE47E39650E47B7F985692F1A978AF /* Pods-EpicWaffleTracker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EpicWaffleTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EpicWaffleTracker/Pods-EpicWaffleTracker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EpicWaffleTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D239F601184DE412A04233559F187A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5127509FCE44B23F6A855ACB70C81F3A /* FSCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B30D0D6B576C3EA580EE2B5CA58C6C35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A81666FFD9ECA758D2D6C2EC93D059B0 /* Pods-EpicWaffleTracker.debug.xcconfig */;
 			buildSettings = {
@@ -475,112 +871,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		7FA7603AF1C405126F1A58A27D9FEDFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F83FE2F04B19C3FD037770C91536254F /* Toast-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		86C6BC5F7A22590E774753AC28B95188 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A93C3A9DFCA635FEFDE9F5C8279C44 /* TSCurrencyTextField.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TSCurrencyTextField/TSCurrencyTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TSCurrencyTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TSCurrencyTextField/TSCurrencyTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TSCurrencyTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B09371EC3E247173C7E148A3043E4B23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDCE47E39650E47B7F985692F1A978AF /* Pods-EpicWaffleTracker.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EpicWaffleTracker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EpicWaffleTracker/Pods-EpicWaffleTracker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EpicWaffleTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -626,9 +916,44 @@
 			};
 			name = Release;
 		};
-		C7DA477210C4E741B191C985A4A53CEF /* Debug */ = {
+		D44F28D21556AF69CEBE93490A87EBF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A93C3A9DFCA635FEFDE9F5C8279C44 /* TSCurrencyTextField.xcconfig */;
+			baseConfigurationReference = 95CC6AB36FA48B6E03420D88E4A89F4E /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF6FBBD7902125D03E0B4D46489B713E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8CD9E03447589AF89647B74D9DF6C2 /* TSCurrencyTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -659,40 +984,6 @@
 			};
 			name = Debug;
 		};
-		F459CCE049646D76FF4344DE4E8B89EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F83FE2F04B19C3FD037770C91536254F /* Toast-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -705,29 +996,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36C5075F9D5D1C926C95FCB7F1E69F9E /* Build configuration list for PBXNativeTarget "Pods-EpicWaffleTracker" */ = {
+		88A52E7F1823D81480109FD67C7AEE7C /* Build configuration list for PBXNativeTarget "TSCurrencyTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5897A2C95EEF11410FAA46269CAECFF0 /* Debug */,
-				B09371EC3E247173C7E148A3043E4B23 /* Release */,
+				DF6FBBD7902125D03E0B4D46489B713E /* Debug */,
+				54E1E49AA271E1261073E0CC4060D65A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4519E8A99B16D20E75041E4AA3E99440 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+		9E489D1BD67E6516082312A3038C627E /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FA7603AF1C405126F1A58A27D9FEDFD /* Debug */,
-				F459CCE049646D76FF4344DE4E8B89EB /* Release */,
+				3A6054BC7666BA658305645BA0303843 /* Debug */,
+				8D239F601184DE412A04233559F187A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ACDDCB49DA131DA9AE0153837AC5B8C /* Build configuration list for PBXNativeTarget "TSCurrencyTextField" */ = {
+		DABC0BBE248B25AC29C5F171AC5514FC /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7DA477210C4E741B191C985A4A53CEF /* Debug */,
-				86C6BC5F7A22590E774753AC28B95188 /* Release */,
+				D44F28D21556AF69CEBE93490A87EBF2 /* Debug */,
+				02CCF1EBC04651E806962BC22C1C3545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC51CC3D8CE0F386C7B5796E6F10E2A5 /* Build configuration list for PBXNativeTarget "Pods-EpicWaffleTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30D0D6B576C3EA580EE2B5CA58C6C35 /* Debug */,
+				69EA10E807637A790703FE4870AB0D31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
