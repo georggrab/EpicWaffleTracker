@@ -12,6 +12,10 @@ import Toast_Swift
 
 class NewExpense : UIViewController {
     @IBOutlet var expenseName: UITextField!
+    @IBOutlet var expenseAmount: UITextField!
+    @IBOutlet var expenseDay: UITextField!
+    @IBOutlet var expenseMonth: UITextField!
+    @IBOutlet var expenseYear: UITextField!
     
     @IBAction func cancel(_ sender: Any) {
         print("Cancel Add Item")
@@ -25,6 +29,11 @@ class NewExpense : UIViewController {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         let expense = Expense(context: context)
         expense.title = expenseName.text!
+        expense.amount = Double(expenseAmount.text!)!
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        expense.date = formatter.date(from: "\(expenseYear.text!)-\(expenseMonth.text!)-\(expenseDay.text!)") as NSDate?
         
         NSLog("Saving new expense: \(expense.title)")
         
