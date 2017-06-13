@@ -7,86 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19480791123EB21431CB744010A3CBAE /* Pods-EpicWaffleTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF18EF9A39A7FF7750986109B6B73E /* Pods-EpicWaffleTracker-dummy.m */; };
-		71CA8A5D54DBC424DF960E426991261F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */; };
-		A75EF52AF037811F2275C8F03E4BC9EE /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E05B778E1B37985EBC078D0C5BA74992 /* Toast-Swift-dummy.m */; };
-		B088C7CC575C09A2A47B1E4CEEC869EF /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4BC48D47B7FA52A3DEA297512CE2C5 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B08ADAECFAB0E20752AD20960F6F6CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		BC047710AF86FC2C1E8E30AA502C221D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
-		C4EF0AE7FE331EDF442C88631DDFD60F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		FB3338DAC71C388B3172AE8DAC8D3FE3 /* Pods-EpicWaffleTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB243506C9D02A1AC0D5FF34907F36B /* Pods-EpicWaffleTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B5CF69E73F88F891D4804814636BF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		0E5A43330A23B5D6B4082FA27419D2A2 /* TSCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8231896E2BF8CA45583FCC6104A9984B /* TSCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45D13B5705B66075FC5A41C039B80330 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A94D207F512164FD4099131FC41228 /* Toast-Swift-dummy.m */; };
+		4DF51C54ED06B5A41D6E28DC88449C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		644B6ADBA6C5F0CAEFA4849084976AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		6C9153914A62210043EADAB7B2131D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		71349CD8BD2A3172BC904E2DBF5AE950 /* Pods-EpicWaffleTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF18EF9A39A7FF7750986109B6B73E /* Pods-EpicWaffleTracker-dummy.m */; };
+		83CDF4A9B6F6DC868C66B6E635397C46 /* TSCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031716CD9E29F39243C3BC0E91E741D0 /* TSCurrencyTextField-dummy.m */; };
+		8B2BE1292FED6FA9753DAF9D98E12C4A /* TSCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B2FFF7D42FE106B98F4C01210108B4 /* TSCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0C5AC62B891CCA12DD9AE9FACD5F297 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2D211C32368F8B444FFD23A908FB58 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C92C4B3AD32CA7701856B5B1E00B3D /* Pods-EpicWaffleTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB243506C9D02A1AC0D5FF34907F36B /* Pods-EpicWaffleTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4074FA6438439D3A2244AD0E6BD144A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D39FEBD9B3C9ECF1848E02F33C9B8 /* Toast.swift */; };
+		EDCFFF91AF1694381DEC00173153D950 /* TSCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D89CAB3EDF31D2014A7AF3474933A3 /* TSCurrencyTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E81432F1BBEA32544587CDBE9257D92E /* PBXContainerItemProxy */ = {
+		25A967D21FD1749426A6868B137724F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7C58AF7D37B76EC3A06558F86D9CFEF1;
+			remoteGlobalIDString = 4E674A1530B8DFA27EE31CEB1AF3EE0B;
+			remoteInfo = TSCurrencyTextField;
+		};
+		29EBCB8007EAB2A4B3D8B65920FB78B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6835606DD392E0B94761D87905937618;
 			remoteInfo = "Toast-Swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031716CD9E29F39243C3BC0E91E741D0 /* TSCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
+		0BC68B576E59B875CD92F16D99E20256 /* TSCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
+		14D89CAB3EDF31D2014A7AF3474933A3 /* TSCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSCurrencyTextField.m; path = TSCurrencyTextField/TSCurrencyTextField.m; sourceTree = "<group>"; };
+		2CD0E46F084C5D595DBD2167D36945F8 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E4759D01E1C27DE0391A33DD9C6D37 /* Pods-EpicWaffleTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpicWaffleTracker-frameworks.sh"; sourceTree = "<group>"; };
+		35A93C3A9DFCA635FEFDE9F5C8279C44 /* TSCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSCurrencyTextField.xcconfig; sourceTree = "<group>"; };
 		5048453596E2ED21977E8BB405668372 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53D0B331911CA470F8CAB2082FDD9DF5 /* Pods_EpicWaffleTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EpicWaffleTracker.framework; path = "Pods-EpicWaffleTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B43828F6C3519C2402268DFD32BFBB3 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		6CFFCB01F6EBEB1625A3243F22598DA4 /* TSCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSCurrencyTextField.framework; path = TSCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7744C5AFB6B8F3263D62D42DB5D6B57A /* Pods_EpicWaffleTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EpicWaffleTracker.framework; path = "Pods-EpicWaffleTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0DE5D1BA6FBAE2F014B7F70843665A /* TSCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TSCurrencyTextField.modulemap; sourceTree = "<group>"; };
+		8231896E2BF8CA45583FCC6104A9984B /* TSCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
 		8AFF18EF9A39A7FF7750986109B6B73E /* Pods-EpicWaffleTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EpicWaffleTracker-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
-		A0FE78CD263C3D813624FC3FACBE44B4 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		960A54F90A3820CD5EDD219DF4EB17DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1AF6EEB89C23305CF5006F1C62CCF69 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
 		A81666FFD9ECA758D2D6C2EC93D059B0 /* Pods-EpicWaffleTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpicWaffleTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		AC21E042593269EBEF50C9C60FC9B024 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		B2B2FFF7D42FE106B98F4C01210108B4 /* TSCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSCurrencyTextField.h; path = TSCurrencyTextField/TSCurrencyTextField.h; sourceTree = "<group>"; };
+		BC2D211C32368F8B444FFD23A908FB58 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
 		BDCE47E39650E47B7F985692F1A978AF /* Pods-EpicWaffleTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EpicWaffleTracker.release.xcconfig"; sourceTree = "<group>"; };
 		BE37D6C00D590E90C487A0A8AD70F689 /* Pods-EpicWaffleTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EpicWaffleTracker-acknowledgements.plist"; sourceTree = "<group>"; };
 		BEB243506C9D02A1AC0D5FF34907F36B /* Pods-EpicWaffleTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EpicWaffleTracker-umbrella.h"; sourceTree = "<group>"; };
-		CBAA452DC428152CC82DD57E67113031 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
-		CE4BC48D47B7FA52A3DEA297512CE2C5 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
 		D2241E53E1E413EB6231A32C954126B4 /* Pods-EpicWaffleTracker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EpicWaffleTracker-resources.sh"; sourceTree = "<group>"; };
 		D26EE3E5ED61B730E27CFAE83E67E67A /* Pods-EpicWaffleTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EpicWaffleTracker.modulemap"; sourceTree = "<group>"; };
-		D31E09673E88729EE06D49BF4000B63E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E05B778E1B37985EBC078D0C5BA74992 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
-		EE18B53B4D5DBDC5263EE6262E2583DD /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		D276D630185C8256BE658A8A8064926D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3F16B1EE3D964D920DC81316A0AA291 /* Pods-EpicWaffleTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EpicWaffleTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7A94D207F512164FD4099131FC41228 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		F83FE2F04B19C3FD037770C91536254F /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
 		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FF8D39FEBD9B3C9ECF1848E02F33C9B8 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		297366336585A7697D71D8284F049A11 /* Frameworks */ = {
+		2D84C3362D6AA724D05C7A3E4BD5B0BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4EF0AE7FE331EDF442C88631DDFD60F /* Foundation.framework in Frameworks */,
-				BC047710AF86FC2C1E8E30AA502C221D /* QuartzCore.framework in Frameworks */,
+				644B6ADBA6C5F0CAEFA4849084976AFD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B76EEACD710F1D2D86B0CFBE14453232 /* Frameworks */ = {
+		937401F38F04AA186009B357F7425693 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B08ADAECFAB0E20752AD20960F6F6CDA /* Foundation.framework in Frameworks */,
+				4DF51C54ED06B5A41D6E28DC88449C36 /* Foundation.framework in Frameworks */,
+				04B5CF69E73F88F891D4804814636BF4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE5D6D0F034C519211820B6CA9D87E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9153914A62210043EADAB7B2131D57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B21BE6EC5E0DC61C2D7BDD00FF68D3F /* Products */ = {
+		3AD73266F08C3C812F6B66E7FA8DC077 /* Toast-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				53D0B331911CA470F8CAB2082FDD9DF5 /* Pods_EpicWaffleTracker.framework */,
-				A0FE78CD263C3D813624FC3FACBE44B4 /* Toast_Swift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */,
-				91FFC9D276F2D51EC5F3FF59947B6F5A /* Support Files */,
+				FF8D39FEBD9B3C9ECF1848E02F33C9B8 /* Toast.swift */,
+				5514003D535498EC0A515B5477E5D1C5 /* Support Files */,
 			);
 			name = "Toast-Swift";
 			path = "Toast-Swift";
@@ -98,6 +118,30 @@
 				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EB39A1D0B6C785272E6347E4DAA2D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7744C5AFB6B8F3263D62D42DB5D6B57A /* Pods_EpicWaffleTracker.framework */,
+				2CD0E46F084C5D595DBD2167D36945F8 /* Toast_Swift.framework */,
+				6CFFCB01F6EBEB1625A3243F22598DA4 /* TSCurrencyTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5514003D535498EC0A515B5477E5D1C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D276D630185C8256BE658A8A8064926D /* Info.plist */,
+				6B43828F6C3519C2402268DFD32BFBB3 /* Toast-Swift.modulemap */,
+				F83FE2F04B19C3FD037770C91536254F /* Toast-Swift.xcconfig */,
+				F7A94D207F512164FD4099131FC41228 /* Toast-Swift-dummy.m */,
+				A1AF6EEB89C23305CF5006F1C62CCF69 /* Toast-Swift-prefix.pch */,
+				BC2D211C32368F8B444FFD23A908FB58 /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
 			sourceTree = "<group>";
 		};
 		5CD71D044A2DDF7C619A68A11521C60D /* Targets Support Files */ = {
@@ -113,24 +157,33 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */,
-				0B21BE6EC5E0DC61C2D7BDD00FF68D3F /* Products */,
+				9C4871E80948A8E9143104EA7F4DD0C8 /* Pods */,
+				4EB39A1D0B6C785272E6347E4DAA2D22 /* Products */,
 				5CD71D044A2DDF7C619A68A11521C60D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		91FFC9D276F2D51EC5F3FF59947B6F5A /* Support Files */ = {
+		851DBDC3688BB43D638738297ED2F1E8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D31E09673E88729EE06D49BF4000B63E /* Info.plist */,
-				EE18B53B4D5DBDC5263EE6262E2583DD /* Toast-Swift.modulemap */,
-				AC21E042593269EBEF50C9C60FC9B024 /* Toast-Swift.xcconfig */,
-				E05B778E1B37985EBC078D0C5BA74992 /* Toast-Swift-dummy.m */,
-				CBAA452DC428152CC82DD57E67113031 /* Toast-Swift-prefix.pch */,
-				CE4BC48D47B7FA52A3DEA297512CE2C5 /* Toast-Swift-umbrella.h */,
+				960A54F90A3820CD5EDD219DF4EB17DC /* Info.plist */,
+				7F0DE5D1BA6FBAE2F014B7F70843665A /* TSCurrencyTextField.modulemap */,
+				35A93C3A9DFCA635FEFDE9F5C8279C44 /* TSCurrencyTextField.xcconfig */,
+				031716CD9E29F39243C3BC0E91E741D0 /* TSCurrencyTextField-dummy.m */,
+				0BC68B576E59B875CD92F16D99E20256 /* TSCurrencyTextField-prefix.pch */,
+				8231896E2BF8CA45583FCC6104A9984B /* TSCurrencyTextField-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Toast-Swift";
+			path = "../Target Support Files/TSCurrencyTextField";
+			sourceTree = "<group>";
+		};
+		873A53612F1636B07099CFE90F5E6756 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B2B2FFF7D42FE106B98F4C01210108B4 /* TSCurrencyTextField.h */,
+				14D89CAB3EDF31D2014A7AF3474933A3 /* TSCurrencyTextField.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
@@ -140,6 +193,25 @@
 				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		9C4871E80948A8E9143104EA7F4DD0C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AD73266F08C3C812F6B66E7FA8DC077 /* Toast-Swift */,
+				A296CBBB00A5DD2409B4AAFD0EA1EE7F /* TSCurrencyTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A296CBBB00A5DD2409B4AAFD0EA1EE7F /* TSCurrencyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				873A53612F1636B07099CFE90F5E6756 /* Core */,
+				851DBDC3688BB43D638738297ED2F1E8 /* Support Files */,
+			);
+			name = TSCurrencyTextField;
+			path = TSCurrencyTextField;
 			sourceTree = "<group>";
 		};
 		CF0A9E168805D07B44115EA1D2B6359E /* Pods-EpicWaffleTracker */ = {
@@ -160,61 +232,80 @@
 			path = "Target Support Files/Pods-EpicWaffleTracker";
 			sourceTree = "<group>";
 		};
-		EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		622AF6B203734B6AE1973EA0FC3D7CD9 /* Headers */ = {
+		622343E7FBC19AA29CB11F7273E88EED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB3338DAC71C388B3172AE8DAC8D3FE3 /* Pods-EpicWaffleTracker-umbrella.h in Headers */,
+				0E5A43330A23B5D6B4082FA27419D2A2 /* TSCurrencyTextField-umbrella.h in Headers */,
+				8B2BE1292FED6FA9753DAF9D98E12C4A /* TSCurrencyTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C38E4A105050CC75AFDAAC6260D3F1ED /* Headers */ = {
+		EA9908141D20BD9A5D895190A5035253 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B088C7CC575C09A2A47B1E4CEEC869EF /* Toast-Swift-umbrella.h in Headers */,
+				B3C92C4B3AD32CA7701856B5B1E00B3D /* Pods-EpicWaffleTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBB0DFA96DFB2081E0BC166E6C45B40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C5AC62B891CCA12DD9AE9FACD5F297 /* Toast-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		67A58D3D1C82E4FDDB94EAF85193060C /* Pods-EpicWaffleTracker */ = {
+		15311C2B50110EE5D3B255A90F3C9598 /* Pods-EpicWaffleTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37C560D7F6DE6462CE1E293F6BF6E463 /* Build configuration list for PBXNativeTarget "Pods-EpicWaffleTracker" */;
+			buildConfigurationList = 36C5075F9D5D1C926C95FCB7F1E69F9E /* Build configuration list for PBXNativeTarget "Pods-EpicWaffleTracker" */;
 			buildPhases = (
-				B3F845D236B7E8FC0B259D070A1E4E19 /* Sources */,
-				B76EEACD710F1D2D86B0CFBE14453232 /* Frameworks */,
-				622AF6B203734B6AE1973EA0FC3D7CD9 /* Headers */,
+				33EEED164B38F13A2E9DB94B2E7D53CE /* Sources */,
+				2D84C3362D6AA724D05C7A3E4BD5B0BF /* Frameworks */,
+				EA9908141D20BD9A5D895190A5035253 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				79D65678DED60949FE22871328436AA7 /* PBXTargetDependency */,
+				2A70A04D8A850D39F365830D89E99488 /* PBXTargetDependency */,
+				FBDD1D6CCD9C86CDA96C3E8FC3DD126A /* PBXTargetDependency */,
 			);
 			name = "Pods-EpicWaffleTracker";
 			productName = "Pods-EpicWaffleTracker";
-			productReference = 53D0B331911CA470F8CAB2082FDD9DF5 /* Pods_EpicWaffleTracker.framework */;
+			productReference = 7744C5AFB6B8F3263D62D42DB5D6B57A /* Pods_EpicWaffleTracker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7C58AF7D37B76EC3A06558F86D9CFEF1 /* Toast-Swift */ = {
+		4E674A1530B8DFA27EE31CEB1AF3EE0B /* TSCurrencyTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 151AB1AF288D35FA38C52FC72F4339D2 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildConfigurationList = 6ACDDCB49DA131DA9AE0153837AC5B8C /* Build configuration list for PBXNativeTarget "TSCurrencyTextField" */;
 			buildPhases = (
-				A2B5BC9CAA0097616A462BC83516F582 /* Sources */,
-				297366336585A7697D71D8284F049A11 /* Frameworks */,
-				C38E4A105050CC75AFDAAC6260D3F1ED /* Headers */,
+				B2AC5A3A8129C1AC290C1BC387C2300B /* Sources */,
+				CAE5D6D0F034C519211820B6CA9D87E9 /* Frameworks */,
+				622343E7FBC19AA29CB11F7273E88EED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSCurrencyTextField;
+			productName = TSCurrencyTextField;
+			productReference = 6CFFCB01F6EBEB1625A3243F22598DA4 /* TSCurrencyTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6835606DD392E0B94761D87905937618 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4519E8A99B16D20E75041E4AA3E99440 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				A1F86D3E2BE12469887CE02F7BC4517B /* Sources */,
+				937401F38F04AA186009B357F7425693 /* Frameworks */,
+				FEBB0DFA96DFB2081E0BC166E6C45B40 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -222,7 +313,7 @@
 			);
 			name = "Toast-Swift";
 			productName = "Toast-Swift";
-			productReference = A0FE78CD263C3D813624FC3FACBE44B4 /* Toast_Swift.framework */;
+			productReference = 2CD0E46F084C5D595DBD2167D36945F8 /* Toast_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -242,118 +333,62 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0B21BE6EC5E0DC61C2D7BDD00FF68D3F /* Products */;
+			productRefGroup = 4EB39A1D0B6C785272E6347E4DAA2D22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67A58D3D1C82E4FDDB94EAF85193060C /* Pods-EpicWaffleTracker */,
-				7C58AF7D37B76EC3A06558F86D9CFEF1 /* Toast-Swift */,
+				15311C2B50110EE5D3B255A90F3C9598 /* Pods-EpicWaffleTracker */,
+				6835606DD392E0B94761D87905937618 /* Toast-Swift */,
+				4E674A1530B8DFA27EE31CEB1AF3EE0B /* TSCurrencyTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A2B5BC9CAA0097616A462BC83516F582 /* Sources */ = {
+		33EEED164B38F13A2E9DB94B2E7D53CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75EF52AF037811F2275C8F03E4BC9EE /* Toast-Swift-dummy.m in Sources */,
-				71CA8A5D54DBC424DF960E426991261F /* Toast.swift in Sources */,
+				71349CD8BD2A3172BC904E2DBF5AE950 /* Pods-EpicWaffleTracker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3F845D236B7E8FC0B259D070A1E4E19 /* Sources */ = {
+		A1F86D3E2BE12469887CE02F7BC4517B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19480791123EB21431CB744010A3CBAE /* Pods-EpicWaffleTracker-dummy.m in Sources */,
+				45D13B5705B66075FC5A41C039B80330 /* Toast-Swift-dummy.m in Sources */,
+				C4074FA6438439D3A2244AD0E6BD144A /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AC5A3A8129C1AC290C1BC387C2300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CDF4A9B6F6DC868C66B6E635397C46 /* TSCurrencyTextField-dummy.m in Sources */,
+				EDCFFF91AF1694381DEC00173153D950 /* TSCurrencyTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		79D65678DED60949FE22871328436AA7 /* PBXTargetDependency */ = {
+		2A70A04D8A850D39F365830D89E99488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSCurrencyTextField;
+			target = 4E674A1530B8DFA27EE31CEB1AF3EE0B /* TSCurrencyTextField */;
+			targetProxy = 25A967D21FD1749426A6868B137724F3 /* PBXContainerItemProxy */;
+		};
+		FBDD1D6CCD9C86CDA96C3E8FC3DD126A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Toast-Swift";
-			target = 7C58AF7D37B76EC3A06558F86D9CFEF1 /* Toast-Swift */;
-			targetProxy = E81432F1BBEA32544587CDBE9257D92E /* PBXContainerItemProxy */;
+			target = 6835606DD392E0B94761D87905937618 /* Toast-Swift */;
+			targetProxy = 29EBCB8007EAB2A4B3D8B65920FB78B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		237FCDBFEA66C1FE5513AE42B370A21A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC21E042593269EBEF50C9C60FC9B024 /* Toast-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4AC7A8CDA4FD992A479887DB2D342070 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDCE47E39650E47B7F985692F1A978AF /* Pods-EpicWaffleTracker.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EpicWaffleTracker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EpicWaffleTracker/Pods-EpicWaffleTracker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EpicWaffleTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -402,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		793A84B0F47BDC57A13BAC81826303DF /* Debug */ = {
+		5897A2C95EEF11410FAA46269CAECFF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A81666FFD9ECA758D2D6C2EC93D059B0 /* Pods-EpicWaffleTracker.debug.xcconfig */;
 			buildSettings = {
@@ -440,6 +475,112 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7FA7603AF1C405126F1A58A27D9FEDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83FE2F04B19C3FD037770C91536254F /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86C6BC5F7A22590E774753AC28B95188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A93C3A9DFCA635FEFDE9F5C8279C44 /* TSCurrencyTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSCurrencyTextField/TSCurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSCurrencyTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSCurrencyTextField/TSCurrencyTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TSCurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B09371EC3E247173C7E148A3043E4B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDCE47E39650E47B7F985692F1A978AF /* Pods-EpicWaffleTracker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EpicWaffleTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EpicWaffleTracker/Pods-EpicWaffleTracker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EpicWaffleTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -485,9 +626,9 @@
 			};
 			name = Release;
 		};
-		D39025EBE39756EB7CEA45F3104ECBEA /* Debug */ = {
+		C7DA477210C4E741B191C985A4A53CEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC21E042593269EBEF50C9C60FC9B024 /* Toast-Swift.xcconfig */;
+			baseConfigurationReference = 35A93C3A9DFCA635FEFDE9F5C8279C44 /* TSCurrencyTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -501,18 +642,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TSCurrencyTextField/TSCurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSCurrencyTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MODULEMAP_FILE = "Target Support Files/TSCurrencyTextField/TSCurrencyTextField.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Toast_Swift;
+				PRODUCT_NAME = TSCurrencyTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -520,18 +659,43 @@
 			};
 			name = Debug;
 		};
+		F459CCE049646D76FF4344DE4E8B89EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83FE2F04B19C3FD037770C91536254F /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		151AB1AF288D35FA38C52FC72F4339D2 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D39025EBE39756EB7CEA45F3104ECBEA /* Debug */,
-				237FCDBFEA66C1FE5513AE42B370A21A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -541,11 +705,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37C560D7F6DE6462CE1E293F6BF6E463 /* Build configuration list for PBXNativeTarget "Pods-EpicWaffleTracker" */ = {
+		36C5075F9D5D1C926C95FCB7F1E69F9E /* Build configuration list for PBXNativeTarget "Pods-EpicWaffleTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				793A84B0F47BDC57A13BAC81826303DF /* Debug */,
-				4AC7A8CDA4FD992A479887DB2D342070 /* Release */,
+				5897A2C95EEF11410FAA46269CAECFF0 /* Debug */,
+				B09371EC3E247173C7E148A3043E4B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4519E8A99B16D20E75041E4AA3E99440 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA7603AF1C405126F1A58A27D9FEDFD /* Debug */,
+				F459CCE049646D76FF4344DE4E8B89EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACDDCB49DA131DA9AE0153837AC5B8C /* Build configuration list for PBXNativeTarget "TSCurrencyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DA477210C4E741B191C985A4A53CEF /* Debug */,
+				86C6BC5F7A22590E774753AC28B95188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,12 +1,17 @@
 PODS:
   - Toast-Swift (2.0.0)
+  - TSCurrencyTextField (0.1.0):
+    - TSCurrencyTextField/Core (= 0.1.0)
+  - TSCurrencyTextField/Core (0.1.0)
 
 DEPENDENCIES:
   - Toast-Swift (~> 2.0.0)
+  - TSCurrencyTextField (~> 0.1.0)
 
 SPEC CHECKSUMS:
   Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+  TSCurrencyTextField: 03f9d4d263d617d1f0e034e4ace12febcfa6fe48
 
-PODFILE CHECKSUM: 603ff2bf74826a97fa13ae25ddc1894ead05a602
+PODFILE CHECKSUM: f040b27a64be8c7a5510e1f899138f1e31d1f659
 
 COCOAPODS: 1.2.1

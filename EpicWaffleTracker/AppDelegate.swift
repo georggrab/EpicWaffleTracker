@@ -89,8 +89,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
-
-
+    
+    lazy var properties: [String: AnyObject]? = {
+        if let path = Bundle.main.path(forResource: "EpicWaffleTracker", ofType: "plist") {
+            return NSDictionary(contentsOfFile: path) as? [String: AnyObject]
+        } else {
+            return nil
+        }
+    }()
 }
 
