@@ -332,7 +332,7 @@
                         <viewControllerLayoutGuide type="top" id="JOi-5v-O94"/>
                         <viewControllerLayoutGuide type="bottom" id="2lB-uO-GSb"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ace-lW-yLD" customClass="DetailViewController">
+                    <view key="view" contentMode="scaleToFill" id="ace-lW-yLD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -371,14 +371,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.49261253238341973" green="0.49261253238341973" blue="0.49261253238341973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MgJ-uS-8Li">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MgJ-uS-8Li">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="kcy-ve-vJN"/>
+                                </constraints>
                                 <items>
                                     <navigationItem title="Title" id="dzl-jg-7kH">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="ivT-Qt-hV3">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="adb-46-rUH">
-                                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                                <rect key="frame" x="16" y="27" width="83" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Back">
                                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -390,7 +392,7 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Delete" style="plain" id="t6Q-fG-2Fu">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Haf-p1-l6y">
-                                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                                <rect key="frame" x="276" y="27" width="83" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Delete">
                                                     <color key="titleColor" red="1" green="0.32960539570000003" blue="0.211896952" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -405,9 +407,15 @@
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MgJ-uS-8Li" firstAttribute="top" secondItem="JOi-5v-O94" secondAttribute="bottom" constant="-20" id="3L9-YB-3jm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MgJ-uS-8Li" secondAttribute="trailing" constant="-16" id="J2j-Ik-I0k"/>
+                            <constraint firstItem="MgJ-uS-8Li" firstAttribute="centerX" secondItem="ace-lW-yLD" secondAttribute="centerX" id="dDr-2C-d9T"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="cost" destination="fiF-6z-hYs" id="hmb-ON-lyo"/>
+                        <outlet property="navigationBar" destination="MgJ-uS-8Li" id="m1s-xv-EQM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uTH-xD-Z65" userLabel="First Responder" sceneMemberID="firstResponder"/>
