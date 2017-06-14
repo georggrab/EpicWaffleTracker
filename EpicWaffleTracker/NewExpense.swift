@@ -23,6 +23,10 @@ class NewExpense : UIViewController {
     }
     
     override func viewDidLoad() {
+        // We'll initialize FSCalendar with
+        // today's Date, which is probably
+        // what the user wants anyway.
+        Calendar.select(Date())
     }
     
     @IBAction func addClick(_ sender: UIButton) {
@@ -32,7 +36,10 @@ class NewExpense : UIViewController {
         
         expense.title = expenseName.text!
         expense.amount = expenseAmount.amount.doubleValue
-        expense.date = NSDate.init(timeIntervalSince1970: (Calendar.selectedDate?.timeIntervalSince1970)!)
+        
+        if let date = Calendar.selectedDate {
+            expense.date = date as NSDate
+        }
 
         NSLog("Saving new expense: \(expense.title)")
         

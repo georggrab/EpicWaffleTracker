@@ -26,9 +26,9 @@ class ExpenseDetail : UIViewController {
         self.dismiss(animated: true)
     }
     
-    override func viewDidLoad() {
-        // TODO populate all that jazz rite here
+    override func viewWillAppear(_ animated: Bool) {
         navigationBar.topItem?.title = passedExpense.title
         cost.text = "\(passedExpense.amount)$"
+        
     }
 }

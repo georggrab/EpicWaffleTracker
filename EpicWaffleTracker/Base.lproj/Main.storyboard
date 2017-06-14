@@ -128,32 +128,48 @@
             </objects>
             <point key="canvasLocation" x="943.20000000000005" y="375.56221889055473"/>
         </scene>
-        <!--Expenses-->
+        <!--All Expenses-->
         <scene sceneID="WIF-oL-LaM">
             <objects>
                 <tableViewController id="MgR-a6-Wzl" customClass="Expenses" customModule="EpicWaffleTracker" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="YVP-ly-f2k">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="YVP-ly-f2k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="cMh-R1-7Nk" style="IBUITableViewCellStyleDefault" id="CaH-WA-CSA">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CELL" id="CaH-WA-CSA" customClass="ExpenseTableViewCell" customModule="EpicWaffleTracker" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="56" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CaH-WA-CSA" id="8AD-IP-cxT">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cMh-R1-7Nk">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expense Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="32n-ft-EeX">
+                                            <rect key="frame" x="16" y="11" width="252" height="24"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$13,37" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TPo-UR-OcM">
+                                            <rect key="frame" x="278" y="12" width="79" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="32n-ft-EeX" firstAttribute="centerX" secondItem="8AD-IP-cxT" secondAttribute="centerX" constant="-45.5" id="5X2-pW-sR6"/>
+                                        <constraint firstItem="TPo-UR-OcM" firstAttribute="centerY" secondItem="8AD-IP-cxT" secondAttribute="centerY" id="5jO-sx-qPz"/>
+                                        <constraint firstItem="TPo-UR-OcM" firstAttribute="leading" secondItem="32n-ft-EeX" secondAttribute="trailing" constant="10" id="9Rj-gK-zj0"/>
+                                        <constraint firstItem="32n-ft-EeX" firstAttribute="centerY" secondItem="8AD-IP-cxT" secondAttribute="centerY" constant="1" id="G1f-Kw-eXh"/>
+                                        <constraint firstItem="32n-ft-EeX" firstAttribute="leading" secondItem="8AD-IP-cxT" secondAttribute="leadingMargin" constant="8" id="H1y-BB-bSZ"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="TPo-UR-OcM" secondAttribute="trailing" constant="10" id="goM-Ri-xRe"/>
+                                        <constraint firstItem="TPo-UR-OcM" firstAttribute="centerY" secondItem="8AD-IP-cxT" secondAttribute="centerY" id="tHK-Bd-E4v"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="expenseAmount" destination="TPo-UR-OcM" id="jgu-oL-NTZ"/>
+                                    <outlet property="expenseTitle" destination="32n-ft-EeX" id="C3E-lW-a6A"/>
                                     <segue destination="Zei-4i-kwO" kind="showDetail" identifier="DetailExpense" id="0Xe-Bc-ea1"/>
                                 </connections>
                             </tableViewCell>
@@ -163,7 +179,7 @@
                             <outlet property="delegate" destination="MgR-a6-Wzl" id="PMO-KE-Dte"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="gxV-H7-ErC">
+                    <navigationItem key="navigationItem" title="All Expenses" id="gxV-H7-ErC">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="I4i-Rr-aiu">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d3y-EG-S3X">
                                 <rect key="frame" x="16" y="7" width="83" height="30"/>
@@ -190,12 +206,12 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="expenses" destination="YVP-ly-f2k" id="Bs2-LM-37N"/>
+                        <outlet property="expenses" destination="YVP-ly-f2k" id="GTv-F4-Ef6"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xhw-xy-u6I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2958" y="376"/>
+            <point key="canvasLocation" x="2957.5999999999999" y="375.56221889055473"/>
         </scene>
         <!--Data Source-->
         <scene sceneID="wVP-RD-7Wa">
