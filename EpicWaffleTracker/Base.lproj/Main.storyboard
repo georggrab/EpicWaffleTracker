@@ -109,6 +109,13 @@
                                     <constraint firstItem="yq5-dV-Mfr" firstAttribute="width" secondItem="fOe-GU-geB" secondAttribute="width" id="xMG-IT-92z"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bao-YS-pcL" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="36" y="293" width="303" height="250"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="xf6-A4-Seg"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -116,13 +123,19 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Ijs-2O-la4" secondAttribute="trailing" constant="20" id="8uP-bd-mp4" userLabel="trailingMargin = Stack View.trailing + 20"/>
                             <constraint firstItem="M3m-dY-0dL" firstAttribute="top" secondItem="XwI-lP-umy" secondAttribute="bottom" id="KQe-UL-hEK"/>
                             <constraint firstItem="M3m-dY-0dL" firstAttribute="leading" secondItem="Ijs-2O-la4" secondAttribute="leading" id="Mob-rb-rcD"/>
+                            <constraint firstItem="bao-YS-pcL" firstAttribute="leading" secondItem="Ijs-2O-la4" secondAttribute="leading" id="VGo-qg-Ucx"/>
                             <constraint firstItem="XwI-lP-umy" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="ZcS-6e-phh"/>
+                            <constraint firstItem="bao-YS-pcL" firstAttribute="trailing" secondItem="Ijs-2O-la4" secondAttribute="trailing" id="g6I-lS-V51"/>
                             <constraint firstItem="Ijs-2O-la4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="kbi-O0-a8J" userLabel="Stack View.leading = leadingMargin + 20"/>
+                            <constraint firstItem="bao-YS-pcL" firstAttribute="top" secondItem="M3m-dY-0dL" secondAttribute="bottom" constant="8" id="lu5-ZM-IWU"/>
                             <constraint firstItem="Ijs-2O-la4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="pe8-HW-IXU" userLabel="Stack View.top = Top Layout Guide.bottom + 20"/>
                             <constraint firstItem="M3m-dY-0dL" firstAttribute="trailing" secondItem="Ijs-2O-la4" secondAttribute="trailing" id="wT3-wa-eXb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hlC-AJ-wm4"/>
+                    <connections>
+                        <outlet property="budgetSpentChart" destination="bao-YS-pcL" id="6Cc-tc-hoZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,12 +8,18 @@
 
 import Foundation
 import UIKit
+import Charts
 
 class MainScreen : UIViewController {
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
+    @IBOutlet var budgetSpentChart: PieChartView!
     
     override func viewDidLoad() {
-        
-        
+        configureChart(pieChart: budgetSpentChart)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        budgetSpentChart.data = getData(coreData: context)
     }
 }

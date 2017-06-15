@@ -7,4 +7,5 @@ target 'EpicWaffleTracker' do
   pod 'Toast-Swift', '~> 2.0.0'
   pod 'TSCurrencyTextField', '~> 0.1.0'
   pod 'FSCalendar'
+  pod 'Charts'
 end
