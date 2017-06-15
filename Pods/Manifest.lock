@@ -2,6 +2,7 @@ PODS:
   - Charts (3.0.2):
     - Charts/Core (= 3.0.2)
   - Charts/Core (3.0.2)
+  - CircularSlider (1.1.2)
   - FSCalendar (2.7.8)
   - Toast-Swift (2.0.0)
   - TSCurrencyTextField (0.1.0):
@@ -10,16 +11,18 @@ PODS:
 
 DEPENDENCIES:
   - Charts
+  - CircularSlider
   - FSCalendar
   - Toast-Swift (~> 2.0.0)
   - TSCurrencyTextField (~> 0.1.0)
 
 SPEC CHECKSUMS:
   Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  CircularSlider: 448f9f7723b845ccd470dac41981feb192e20c50
   FSCalendar: 09369a2bf554ba71cd8e8cfb627e2df22a2c2af4
   Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
   TSCurrencyTextField: 03f9d4d263d617d1f0e034e4ace12febcfa6fe48
 
-PODFILE CHECKSUM: c691d441509d6864bf78977dfc4b3b2bb903e6d7
+PODFILE CHECKSUM: 3cf4305bad1e1b1b60ea8d5aecbedd74d9e9d757
 
 COCOAPODS: 1.2.1

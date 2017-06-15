@@ -13,35 +13,48 @@ import TSCurrencyTextField
 import FSCalendar
 
 class NewExpense : UIViewController {
+    public var editItem: Expense?
+    
+    @IBOutlet var navigationBar: UINavigationBar!
     @IBOutlet var expenseName: UITextField!
     @IBOutlet var expenseAmount: TSCurrencyTextField!
     @IBOutlet var Calendar: FSCalendar!
-    
+
     @IBAction func cancel(_ sender: Any) {
-        print("Cancel Add Item")
         self.dismiss(animated: true) { }
     }
     
     override func viewDidLoad() {
-        // We'll initialize FSCalendar with
-        // today's Date, which is probably
-        // what the user wants anyway.
-        Calendar.select(Date())
+        if let exp = editItem {
+           Calendar.select((exp.date as! Date))
+            expenseName.text = exp.title
+            expenseAmount.amount = NSNumber.init(value: exp.amount)
+            navigationBar.topItem?.title = "Edit Expense"
+        } else {
+            // We'll initialize FSCalendar with
+            // today's Date, which is probably
+            // what the user wants anyway.
+            Calendar.select(Date())
+        }
     }
-    
-    @IBAction func addClick(_ sender: UIButton) {
+    @IBAction func addClick(_ sender: Any) {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        var mutateExpenseEntity : Expense
         
-        let expense = Expense(context: context)
-        
-        expense.title = expenseName.text!
-        expense.amount = expenseAmount.amount.doubleValue
-        
-        if let date = Calendar.selectedDate {
-            expense.date = date as NSDate
+        if let exp = editItem {
+            mutateExpenseEntity = exp
+        } else {
+            mutateExpenseEntity = Expense(context: context)
         }
 
-        NSLog("Saving new expense: \(expense.title)")
+        mutateExpenseEntity.title = expenseName.text!
+        mutateExpenseEntity.amount = expenseAmount.amount.doubleValue
+        
+        if let date = Calendar.selectedDate {
+            mutateExpenseEntity.date = date as NSDate
+        }
+
+        NSLog("Saving new expense: \(mutateExpenseEntity.title)")
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
         

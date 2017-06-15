@@ -42,7 +42,6 @@ fileprivate func getDataSet(coreData context: NSManagedObjectContext) -> PieChar
         
         let maximumExpensesForMonth = savedAmount as! Double
         let chartDataSet = PieChartDataSet.init()
-
         
         if allExpensesThisMonth > maximumExpensesForMonth {
             chartDataSet.colors = ChartColorTemplates.colorful()
@@ -69,5 +68,8 @@ public func configureChart(pieChart view: PieChartView) {
     let fmt = DateFormatter()
     fmt.setLocalizedDateFormatFromTemplate("MMMM")
 
+    view.legend.enabled = false
+    view.holeRadiusPercent = 0.33
+    view.holeColor = UIColor.lightGray
     view.chartDescription?.text = "Remaining Money for \(fmt.string(from: today))"
 }

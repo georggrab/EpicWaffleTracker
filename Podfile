@@ -8,4 +8,5 @@ target 'EpicWaffleTracker' do
   pod 'TSCurrencyTextField', '~> 0.1.0'
   pod 'FSCalendar'
   pod 'Charts'
+  pod 'CircularSlider'
 end

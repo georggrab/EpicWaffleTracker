@@ -22,4 +22,8 @@ class MainScreen : UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         budgetSpentChart.data = getData(coreData: context)
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        budgetSpentChart.animate(xAxisDuration: 0.5, yAxisDuration: 0.5, easingOption: ChartEasingOption.linear)
+    }
 }
